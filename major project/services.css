@@ -1,0 +1,133 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling for body and fonts */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: white;
+    padding: 1em;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 1em;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #FF5733;
+}
+
+/* Page content styles */
+.page-content {
+    padding: 2em;
+}
+
+.service {
+    background-color: white;
+    padding: 1.5em;
+    margin-bottom: 1.5em;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.service h2 {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #333;
+    color: white;
+}
+
+/* ... Other styles ... */
+
+/* Services section styles */
+.services {
+    text-align: center;
+    padding: 4em;
+}
+
+.services h1 {
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+.service {
+    margin-bottom: 2em;
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.service h2 {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+.service p {
+    margin-bottom: 1.5em;
+}
+
+.cta-button {
+    background-color: #FF5733;
+    color: white;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #E64A19;
+}
+
+@media (max-width: 768px) {
+    .mobile-nav-button {
+        display: block; /* Show on smaller screens */
+    }
+    
+    .nav ul {
+        display: none; /* Hide navigation menu by default */
+    }
+    
+    .nav ul.show {
+        display: block; /* Show navigation menu when active */
+    }
+}
+
+/* Adjust for smaller screens */
+@media (max-width: 768px) {
+    .cta-button {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+}
+

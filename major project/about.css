@@ -1,0 +1,104 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling for body and fonts */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: white;
+    padding: 1em;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 1em;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #FF5733;
+}
+
+/* About section styles */
+.about {
+    text-align: center;
+    padding: 4em;
+}
+
+.about h1 {
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+/* Inquiry form styles */
+.inquiry-form {
+    text-align: center;
+    padding: 4em;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.inquiry-form h2 {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+.inquiry-form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inquiry-form label {
+    margin-top: 1em;
+}
+
+.inquiry-form input,
+.inquiry-form textarea {
+    width: 100%;
+    padding: 0.5em;
+    margin-top: 0.3em;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.inquiry-form button {
+    background-color: #FF5733;
+    color: white;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 1em;
+}
+
+.inquiry-form button:hover {
+    background-color: #E64A19;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #333;
+    color: white;
+}

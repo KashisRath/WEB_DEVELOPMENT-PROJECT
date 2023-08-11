@@ -1,0 +1,117 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling for body and fonts */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: white;
+    padding: 1em;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 1em;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #FF5733;
+}
+
+/* Hero section styles */
+.hero {
+    background-image: url('hero-bg.jpg');
+    background-size: cover;
+    text-align: center;
+    padding: 5em 0;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 1.5em;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #FF5733;
+    color: white;
+    padding: 1em 2em;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #E64A19;
+}
+
+/* Features section styles */
+.features {
+    display: flex;
+    justify-content: center;
+    margin: 4em 0;
+}
+
+.feature {
+    text-align: center;
+    padding: 2em;
+    margin: 0 1.5em;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.feature h2 {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #333;
+    color: white;
+}
+
+/* ... Your existing CSS code ... */
+
+/* Additional info styles */
+.additional-info {
+    display: none;
+    margin-top: 1em;
+    padding: 1em;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.additional-info.show {
+    display: block;
+}
